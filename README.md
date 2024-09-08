@@ -4,6 +4,9 @@
 
 This project demonstrates the lifecycle of a zero-knowledge proof generation process using ZKM (Zero-Knowledge Machine). It showcases a simple program that verifies a SHA256 hash without revealing the original input.
 
+## Requirements
+Go needs to 1.22.5
+
 ## Project Overview
 
 The main components of this project are:
