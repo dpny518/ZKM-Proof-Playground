@@ -32,13 +32,16 @@ The core of this project is a Rust program that:
 3. Verifies that the computed hash matches the public input
 4. Commits the result to the proof
 
-```rust
-// Rust code snippet (see full code in src/main.rs)
+## Test SDIN
+We will test SHA256 of the word BUILDH3R
 ```
+0a0deb40efbe68c236dcefca9bf0891afff84ccd6e0b62eaea18db84e388112b
+```
+
 
 ## How to Use This Project
 
-1. Review the Rust code in `src/main.rs`
+1. Review the Rust code in `HellowWorld.rs`
 2. Use the provided interface to input values:
    - Public input: The known SHA256 hash
    - Private input: The value that, when hashed, should produce the public input
