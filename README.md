@@ -7,6 +7,8 @@ This project demonstrates the lifecycle of a zero-knowledge proof generation pro
 ## Requirements
 Go needs to 1.22.5
 Rust
+   rustup install nightly
+   rustup default nightly
 build-essential
 pkg-config
 libssl-dev
