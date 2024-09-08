@@ -1,0 +1,6 @@
+export RUST_LOG=info
+export BASEDIR=/home/ubuntu/ZKM-Proof-Playground # Replace with your folder location
+export SEG_SIZE=65536 # See cycles above for exact value based on your RAM
+export ARGS='0a0deb40efbe68c236dcefca9bf0891afff84ccd6e0b62eaea18db84e388112b BUILDH3R'
+export SEG_OUTPUT=/tmp/output
+export SEG_FILE_DIR=/tmp/output
