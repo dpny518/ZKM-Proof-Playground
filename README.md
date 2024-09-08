@@ -51,7 +51,6 @@ We will test SHA256 of the word BUILDH3R
 0a0deb40efbe68c236dcefca9bf0891afff84ccd6e0b62eaea18db84e388112b
 ```
 
-
 ## How to Use This Project
 
 1. Review the Rust code in `HellowWorld.rs`
@@ -61,29 +60,5 @@ We will test SHA256 of the word BUILDH3R
 3. Click "Generate Proof" to run the proof generation process
    - Note: This process takes about a minute to complete
 4. Examine the generated proof
-5. (Optional) Generate a verifier contract using the program's ImageID
-6. (Optional) Post the proof to the verifier contract for on-chain verification
 
-## Pre-generated Proof
 
-A pre-generated proof is included in this project, allowing you to explore the output without waiting for the proof generation process.
-
-## Customization
-
-Feel free to modify the input values to generate new proofs and experiment with the system.
-
-## Technical Details
-
-- The program runs as a "guest" program within the ZKM "host" environment
-- The ZKM runtime provides functions for input/output and committing results to the proof
-
-## Next Steps
-
-- Experiment with different input values
-- Try to generate your own proofs
-- Explore the creation and use of a verifier contract
-
-## Resources
-
-- [ZKM Documentation](https://docs.zkm.io) (replace with actual documentation link)
-- [Rust SHA256 crate](https://docs.rs/sha2/latest/sha2/)
