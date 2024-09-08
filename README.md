@@ -18,10 +18,23 @@ The proof generation process consists of 6 main steps:
 
 1. Writing the program (already provided in Rust)
 2. Compiling the program using MIPS
-3. Running the program through a prover with inputs
-4. Receiving the proof as output
-5. Generating a verifier contract from the ImageID of the program
-6. Posting the proof to the verifier contract
+```
+GOOS=linux GOARCH=mips GOMIPS=softfloat go build -C zkm/prover/examples/sha2-go
+```
+This produces an ELF binary in prover/examples/sha2-go/sha2-go
+```
+export ELF_PATH=$BASEDIR/prover/examples/sha2-go/sha2-go
+```
+   
+4. Running the program through a prover with inputs
+```
+cd zkm
+HOST_PROGRAM=sha2_go \
+    cargo run --release --example zkmips prove_host_program
+```
+6. Receiving the proof as output
+7. Generating a verifier contract from the ImageID of the program
+8. Posting the proof to the verifier contract
 
 ## The Rust Program
 
