@@ -6,6 +6,10 @@ This project demonstrates the lifecycle of a zero-knowledge proof generation pro
 
 ## Requirements
 Go needs to 1.22.5
+Rust
+build-essential
+pkg-config
+libssl-dev
 
 ## Project Overview
 
